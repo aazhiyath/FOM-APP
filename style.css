@@ -1,0 +1,118 @@
+#product{
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+#product h1{
+    text-align: center;
+    font-size: 30px;
+    background-color: transparent;
+}
+.products .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.products .row a{
+    text-decoration: none;
+    color:  red;
+   
+}
+.products .row .col{
+   
+    width: 30%;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 15px;
+   height: 30%;
+   border-radius: 2px;
+   transition: 0.5s;
+   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+   border-radius: 5%;
+   
+}
+.products .row .col .heading{
+
+   margin: 25px;
+}
+.products .row .col:hover{
+
+    box-shadow: none;
+}
+.products .row .col img{
+    width: 100%;}
+   
+   
+    
+    #product h1{
+        text-align: center;
+        font-size: 30px;
+        background-color: transparent;
+    }
+    .products .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+    .products .row a{
+        text-decoration: none;
+        color:  red;
+       
+    }
+    .products .row .col{
+       
+        width: 30%;
+        justify-content: space-between;
+        overflow: hidden;
+        margin: 15px;
+       border-radius: 2px;
+       transition: 0.5s;
+       box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+       border-radius: 5%;
+       
+    }
+    .products .row .col h3{
+       
+    }
+    .products .row .col:hover{
+    
+        box-shadow: none;
+    }
+
+    button{
+        padding: 7px 18px;
+        background: transparent;
+        border: 2px solid black;
+        font-weight: 600;
+        font-size: 15px;
+        color: green;
+        cursor: pointer;
+        transition: 1s;
+        margin-right: 20px;
+      }
+
+    button:hover{
+        background: green;
+        color: white;
+    }
+    @media only screen and ( max-width: 600px){
+
+
+        
+     
+        .products .row{
+            display: block;
+           margin: 0;
+        }
+        .products .row .col{
+       
+            width: 90%;
+            margin-left: 20px;
+           
+        }
+
+    }
